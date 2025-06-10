@@ -24,7 +24,7 @@ const markCommit = (x, y) => {
 
 const makeCommits = (n) => {
   if (n === 0) return simpleGit().push();
-  const x = random.int(0, 54);
+  const x = random.int(0, 53);
   const y = random.int(0, 6);
   const date = moment()
     .subtract(1, "y")
